@@ -25,15 +25,32 @@
 body {
   background-color: var(--mauve);
   color: var(--dark-slate-blue);
+  font-family: 'FigtreeLightItalic', sans-serif; /* Use your preferred font family */
+  margin: 0;
 }
 
-h1 {
-  color: var(--dark-slate-blue);
-  font-family: 'Agbalumo', sans-serif;
+header {
+  font-family: 'Agbalumo', sans-serif; /* Use your preferred font family */
+  text-align: center;
+  padding: 20px 20px 0 20px;
 }
 
-a {
-  color: var(--pistachio);
+main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px 20px 0 20px;
+}
+
+img {
+  width: 300px; /* Adjust the width of the image as needed */
+  height: auto;
+  margin-right: 20px; /* Add some spacing between the image and section */
+  margin-top: 22px;
+}
+
+section {
+  max-width: 400px; /* Adjust the max-width of the text column as needed */
 }
 
 body main section p {
@@ -41,6 +58,7 @@ body main section p {
   font-family: 'FigtreeLight', sans-serif;
 }
 
-body footer {
-  font-family: 'FigtreeLightItalic', sans-serif;
+footer {
+  text-align: center;
+  padding: 20px;
 }

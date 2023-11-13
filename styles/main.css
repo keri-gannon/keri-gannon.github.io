@@ -1,0 +1,46 @@
+/* Import the colors.css file */
+@import url('colors.css');
+
+@font-face {
+  font-family: 'Agbalumo';
+  src: url('./fonts/agbalumo-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FigtreeLight';
+  src: url('./fonts/Figtree-light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FigtreeLightItalic';
+  src: url('./fonts/Figtree-light-italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: var(--mauve);
+  color: var(--dark-slate-blue);
+}
+
+h1 {
+  color: var(--dark-slate-blue);
+  font-family: 'Agbalumo', sans-serif;
+}
+
+a {
+  color: var(--pistachio);
+}
+
+body main section p {
+  line-height: 1.5;
+  font-family: 'FigtreeLight', sans-serif;
+}
+
+body footer {
+  font-family: 'FigtreeLightItalic', sans-serif;
+}

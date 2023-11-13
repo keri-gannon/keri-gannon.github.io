@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Agbalumo';
+  src: url('./fonts/agbalumo-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FigtreeLight';
+  src: url('./fonts/Figtree-light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FigtreeLightItalic';
+  src: url('./fonts/Figtree-light-italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

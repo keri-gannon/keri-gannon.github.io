@@ -23,8 +23,8 @@
 }
 
 body {
-  background-color: var(--mauve);
-  color: var(--dark-slate-blue);
+  background-color: var(--dark-slate-blue);
+  color: var(--mauve);
   font-family: 'FigtreeLightItalic', sans-serif; /* Use your preferred font family */
   margin: 0;
 }
@@ -61,4 +61,27 @@ body main section p {
 footer {
   text-align: center;
   padding: 20px;
+}
+
+/* Your regular styles go here */
+
+/* Media query for screens up to 767 pixels wide (typical mobile devices) */
+@media only screen and (max-width: 767px) {
+  /* Your mobile-specific styles go here */
+
+  main {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+  }
+
+  img {
+    width: 250px; /* Adjust the width of the image as needed */
+    height: auto;
+    margin-right: 20px; /* Add some spacing between the image and section */
+    margin-top: 22px;
+  }
+
+  /* Add more styles as needed for a better mobile experience */
 }

@@ -40,6 +40,10 @@ a:visited {
   cursor: pointer;
 }
 
+#intro {
+  display: flex;
+}
+
 /* Media queries for responsiveness */
 
 /* For smaller devices (e.g., tablets) */

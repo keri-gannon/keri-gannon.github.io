@@ -1,0 +1,58 @@
+/* Default styles */
+
+html {
+  background-color: #f5f5e9;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  padding: 10px 100px 0px 100px;
+}
+
+h1,
+h2 {
+  color: #bc5e1f;
+}
+
+p,
+ul,
+li {
+  color: #868080;
+}
+
+a {
+  color: #114428;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #114428;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #49584b;
+}
+
+.header-click:hover {
+  color: #114428;
+  cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+
+/* For smaller devices (e.g., tablets) */
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 10px 50px;
+  }
+}
+
+/* For even smaller devices (e.g., smartphones) */
+@media only screen and (max-width: 480px) {
+  body {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
